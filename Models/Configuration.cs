@@ -23,7 +23,7 @@ namespace NexaWorksTickets.Models
         public int OpSystemId { get; set; }
         public OpSystem OpSystem { get; set; }
 
-        // Relation vers Ticket
+        // Relation vers Ticket df
         public ICollection<Ticket> Tickets { get; set; }
     }
 }
