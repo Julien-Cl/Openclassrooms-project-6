@@ -4,7 +4,7 @@ using Projet_6.Models;
 
 namespace NexaWorksTickets.Models
 {
-    public class OpSystem
+    public class OperatingSystem
     {
         [Key]
         public int Id { get; set; }

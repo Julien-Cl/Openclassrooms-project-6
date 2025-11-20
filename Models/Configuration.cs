@@ -21,7 +21,7 @@ namespace NexaWorksTickets.Models
 
         [ForeignKey("OpSystem")]
         public int OpSystemId { get; set; }
-        public OpSystem OpSystem { get; set; }
+        public OperatingSystem OpSystem { get; set; }
 
         // Relation vers Ticket df
         public ICollection<Ticket> Tickets { get; set; }

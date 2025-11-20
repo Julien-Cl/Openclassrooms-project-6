@@ -10,12 +10,13 @@ namespace NexaWorksTickets.Data
 
         public DbSet<Product> Products { get; set; }
         public DbSet<VersionNumber> VersionNumbers { get; set; }
-        public DbSet<OpSystem> OperatingSystems { get; set; }
+        public DbSet<Models.OperatingSystem> OperatingSystems { get; set; }
         public DbSet<Configuration> Configurations { get; set; }
         public DbSet<Ticket> Tickets { get; set; }
-
-
+        public DbSet<Status> Status { get; set; }
         
+
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);

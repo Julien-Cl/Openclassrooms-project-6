@@ -10,14 +10,21 @@ namespace NexaWorksTickets.Models
         public int Id { get; set; }
         public DateTime CreationDate { get; set; }
         public DateTime? ResolutionDate { get; set; }
-        public string Status { get; set; } // "Résolu" ou "En cours"
+ 
         public string Description { get; set; }
-        public string Resolution { get; set; }
+        public string? Resolution { get; set; }
 
         // Foreign key vers Configuration
         [ForeignKey("Configuration")]
         public int ConfigurationId { get; set; }
         public Configuration Configuration { get; set; }
+
+        // Foreign key vers status
+        [ForeignKey("Status")]
+        public int StatusId { get; set; }
+        public Status Status { get; set; }
+
+
     }
 }
 
