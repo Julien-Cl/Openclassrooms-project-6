@@ -33,4 +33,4 @@ Une sauvegarde complète de la base (dump SSMS) est fournie dans le dossier Data
 
 Restaurer la base de données depuis le dump et lancer le projet dans Visual Studio 2022. 
 
-
+Note: les 20 requêtes sont dans le fichier Program.cs, et les méthodes de recherche sont dans le fichier Queries.cs.
