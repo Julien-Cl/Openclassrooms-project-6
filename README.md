@@ -4,7 +4,7 @@ Ce projet est une base de données ainsi qu'une API ASP.NET Core réalisée dans
 
 
 
-![Modèle entité-association](./Images/model.png)
+![Modèle entité-association](./Images/model2.png)
 
 
 
