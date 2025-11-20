@@ -2,6 +2,13 @@
 
 Ce projet est une base de données ainsi qu'une API ASP.NET Core réalisée dans le cadre du projet 6 de la formation Openclassrooms "Développeur .NET". 
 
+
+
+![Modèle entité-association](./Images/model.png)
+
+
+
+
 ## Objectif
 
 Créer une base de données de gestion de tickets et créer une API pour pouvoir l'interroger selon différents critères. 
